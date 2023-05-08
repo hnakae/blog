@@ -1,1 +1,1 @@
-git submodule add -b main <githubpagesurl> public
+git submodule add -b main githubpagesurl public
