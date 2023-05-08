@@ -1,4 +1,0 @@
-baseURL = 'http://github.eugenego.club/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
-theme = "mediumish-gohugo-theme"
