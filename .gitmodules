@@ -1,0 +1,4 @@
+[submodule "public"]
+	path = public
+	url = https://github.com/Eugene-Go-Club/Eugene-Go-Club.github.io.git
+	branch = main
