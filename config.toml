@@ -1,4 +1,0 @@
-baseURL = 'http://Eugene-Go-Club.github.io'
-languageCode = 'en-us'
-title = 'Eugene Go Club'
-theme = "mediumish-gohugo-theme"

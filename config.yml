@@ -1,0 +1,47 @@
+baseURL: ""
+languageCode: en-us
+title: Eugene Go Club
+theme: PaperMod
+
+params:
+  homeInfoParams:
+    Title: "Hello"
+    Content: "Welcome to the club. Here you'll find a lot of cool information about go."
+
+  cover:
+    linkFullImages: true
+
+  ShowBreadCrumbs: true
+
+  ShowReadingTime: true
+
+  ShowShareButtons: true
+
+  ShowPostNavLinks: true
+
+menu:
+  main:
+    - identifier: Meetup.com
+      name: Meetup.com
+      url: https://www.meetup.com/eugene-go-players/
+      weight: 10
+    - identifier: Patterns
+      name: Patterns
+      url: /patterns/
+      weight: 20
+    - identifier: Joseki
+      name: Joseki
+      url: /joseki/
+      weight: 30
+    - identifier: Games
+      name: Games
+      url: /games/
+      weight: 40
+    - identifier: Proverbs
+      name: Proverbs
+      url: /proverbs/
+      weight: 50
+    - identifier: FAQ
+      name: FAQ
+      url: /faq/
+      weight: 60

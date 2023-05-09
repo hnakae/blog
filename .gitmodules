@@ -2,3 +2,6 @@
 	path = public
 	url = https://github.com/Eugene-Go-Club/Eugene-Go-Club.github.io.git
 	branch = main
+[submodule "themes/lekh"]
+	path = themes/lekh
+	url = https://github.com/ba11b0y/lekh.git
