@@ -6,7 +6,7 @@ theme: PaperMod
 params:
   homeInfoParams:
     Title: "Hello"
-    Content: "Welcome to the club. Here you'll find a lot of cool information about go."
+    Content: Welcome to the club. Here you'll find a lot of cool information about go.
 
   cover:
     linkFullImages: true
