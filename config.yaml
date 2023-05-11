@@ -24,27 +24,27 @@ params:
 
 menu:
   main:
+    - identifier: Archives
+      name: Archives
+      url: /archives/
+      weight: 10
+    - identifier: Tags
+      name: Tags
+      url: /tags/
+      weight: 20
     - identifier: Meetup.com
       name: Meetup.com
       url: https://www.meetup.com/eugene-go-players/
-      weight: 10
-    - identifier: Patterns
-      name: Patterns
-      url: /patterns/
-      weight: 20
-    - identifier: Joseki
-      name: Joseki
-      url: /joseki/
       weight: 30
-    - identifier: Games
-      name: Games
-      url: /games/
-      weight: 40
-    - identifier: Proverbs
-      name: Proverbs
-      url: /proverbs/
-      weight: 50
-    - identifier: FAQ
-      name: FAQ
-      url: /faq/
-      weight: 60
+    # - identifier: Search
+    #   name: Search
+    #   url: /search/
+    #   weight: 10
+    # - identifier: Proverbs
+    #   name: Proverbs
+    #   url: /proverbs/
+    #   weight: 50
+    # - identifier: FAQ
+    #   name: FAQ
+    #   url: /faq/
+    #   weight: 60
