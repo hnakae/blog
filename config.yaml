@@ -9,7 +9,7 @@ params:
 
   homeInfoParams:
     Title: "Wednesdays 5-9pm"
-    Content: Welcome to the club! Here you'll find an archive of the weekly games played @ 5th Street Market Alley.
+    Content: Here you'll find an archive of the weekly games played @ 5th Street Market Alley.
 
   cover:
     linkFullImages: true

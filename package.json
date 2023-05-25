@@ -1,0 +1,16 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "baseURL = 'http://github.eugenego.club/'",
+  "main": "index.js",
+  "scripts": {
+    "build-tw": "npx tailwindcss -i ./assets/main.css -o ./assets/style.css",
+    "dev": "npm run build-tw && hugo server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.3.2"
+  }
+}
