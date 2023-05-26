@@ -10,3 +10,5 @@ tags: ["Corvallis", "Galen", "Hiro"]
 ---
 
 https://online-go.com/review/1078351
+
+{{< youtube 2xkNJL4gJ9E >}}
