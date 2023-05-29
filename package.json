@@ -4,13 +4,19 @@
   "description": "baseURL = 'http://github.eugenego.club/'",
   "main": "index.js",
   "scripts": {
-    "build-tw": "npx tailwindcss -i ./assets/main.css -o ./assets/style.css",
-    "dev": "npm run build-tw && hugo server"
+    "watch:css": "postcss ./assets/tailwind.css -o ./assets/build.css -w",
+    "dev": "concurrently --kill-others \"hugo server\" \"npm run watch:css\"",
+    "build": "hugo"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "autoprefixer": "^10.4.14",
+    "concurrently": "^8.0.1",
+    "postcss": "^8.4.23",
+    "postcss-cli": "^10.1.0",
+    "postcss-import": "^15.1.0",
     "tailwindcss": "^3.3.2"
   }
 }
