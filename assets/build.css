@@ -512,21 +512,39 @@ video {
 .visible {
   visibility: visible;
 }
+.block {
+  display: block;
+}
+.flex {
+  display: flex;
+}
 .table {
   display: table;
 }
 .hidden {
   display: none;
 }
-.bg-violet-300 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(196 181 253 / var(--tw-bg-opacity));
+.w-full {
+  width: 100%;
 }
-.bg-red-300 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(252 165 165 / var(--tw-bg-opacity));
+.w-screen {
+  width: 100vw;
 }
-.bg-blue-300 {
+.flex-col {
+  flex-direction: column;
+}
+.border {
+  border-width: 1px;
+}
+.bg-violet-400 {
   --tw-bg-opacity: 1;
-  background-color: rgb(147 197 253 / var(--tw-bg-opacity));
+  background-color: rgb(167 139 250 / var(--tw-bg-opacity));
+}
+.bg-red-400 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(248 113 113 / var(--tw-bg-opacity));
+}
+.px-0 {
+  padding-left: 0px;
+  padding-right: 0px;
 }

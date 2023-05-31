@@ -9,6 +9,4 @@ cover:
 tags: ["Corvallis", "Galen", "Hiro"]
 ---
 
-{{< iframe src="https://online-go.com/review/1078351" >}}
-
-{{< youtube 2xkNJL4gJ9E >}}
+{{< iframe src="https://online-go.com/review/1078351" style="" >}}
